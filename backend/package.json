@@ -1,0 +1,26 @@
+{
+  "name": "weightlost",
+  "version": "1.0.0",
+  "description": "backend server connect to gemini",
+  "homepage": "https://github.com/Avacia/WeightLost#readme",
+  "bugs": {
+    "url": "https://github.com/Avacia/WeightLost/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avacia/WeightLost.git"
+  },
+  "license": "ISC",
+  "author": "Yen",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
